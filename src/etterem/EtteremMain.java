@@ -4,17 +4,20 @@
  */
 package etterem;
 
+import java.io.IOException;
+import modell.Etterem;
+
 /**
  *
  * @author kunszekely.bence
  */
-public class Etterem {
+public class EtteremMain {
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) throws IOException {
+        new Etterem();
     }
     
 }
